@@ -34,7 +34,7 @@ The app is fully responsive and provides a nice UX.
 
 ## Screenshots
 
-<div style="display: flex; justify-content-center; align-items: center; flex-wrap: wrap;">
+<div style="display: flex; justify-content:center; align-items: center; flex-wrap: wrap;">
 <img src="./src/assets/screenshots/1.png" alt="no tasks yet" width="150" height="150">
 <img src="./src/assets/screenshots/2.png" alt="task added" width="150" height="150">
 <img src="./src/assets/screenshots/3.png" alt="no task to add error" width="150" height="150">
