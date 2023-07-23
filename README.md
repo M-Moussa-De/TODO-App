@@ -34,6 +34,7 @@ The app is fully responsive and provides a nice UX.
 
 ## Screenshots
 
+<div style="display: flex; flex-wrap: wrap;">
 <img src="./src/assets/screenshots/1.png" alt="no tasks yet" width="150" height="150">
 <img src="./src/assets/screenshots/2.png" alt="task added" width="150" height="150">
 <img src="./src/assets/screenshots/3.png" alt="no task to add error" width="150" height="150">
@@ -44,3 +45,4 @@ The app is fully responsive and provides a nice UX.
 <img src="./src/assets/screenshots/8.png" alt="pagination page 3" width="150" height="150">
 <img src="./src/assets/screenshots/9.png" alt="alert before deleting a task" width="150" height="150">
 <img src="./src/assets/screenshots/10.png" alt="task deleted" width="150" height="150">
+</div>
