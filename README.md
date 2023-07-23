@@ -8,8 +8,9 @@ The app is fully responsive and provides a nice UX.
 1. Where you want to save the project, open a terminal of your choice.
 2. Clone the project by running this command `git clone https://github.com/M-Moussa-De/todo_app.git`.
 3. Open the project using any IDE (e.g. VS Code).
-4. In the terminal run `npm start` to start the development server.
-5. A browser window will open and run the project.
+4. In the terminal run `npm install` to install all dependencies.
+5. In the terminal run `npm start` to start the development server.
+6. A browser window will open and run the project.
 
 ## Features
 
