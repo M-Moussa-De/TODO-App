@@ -1,0 +1,16 @@
+ul.pagination {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1rem;
+
+	li {
+		margin-left: 0.3rem;
+		cursor: pointer;
+		background: lighten($color-blue, 10%);
+		padding: 0.1rem 0.5rem;
+		
+		svg {
+			background: red;
+		}
+	}
+}

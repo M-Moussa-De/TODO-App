@@ -1,0 +1,25 @@
+div.swal-modal {
+	padding: 1rem;
+	border-radius: $border-radius;
+
+	.swal-title {
+		margin: 0 !important;
+	}
+
+	.swal-footer {
+		margin-top: 0 !important;
+	}
+
+	input.swal-content_input,
+	.swal-content__textarea {
+		border-radius: 50px !important;
+
+		&:focus {
+			border-color: red;
+		}
+	}
+
+	.swal-button {
+		padding: 0.5rem 1rem;
+	}
+}

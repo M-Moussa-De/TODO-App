@@ -1,0 +1,42 @@
+.addTaskForm {
+	margin-bottom: 2rem;
+	display: flex;
+
+	input {
+		border: none;
+		color: lighten($color-black, 60%);
+		border-right: none;
+		padding: 0.4rem 0.5rem;
+		transition: $transition;
+		font-size: 1rem;
+		border-top-left-radius: $border-radius;
+		border-bottom-left-radius: $border-radius;
+		width: calc(100% - 40%);
+		flex: 1;
+		outline: none;
+		box-shadow: none;
+
+		@media (min-width: 768px) {
+			width: calc(100% - 20%);
+		}
+
+		&::placeholder {
+			font-size: 0.8rem;
+			word-spacing: 3px;
+			color: darken($color-gray, 8%);
+		}
+	}
+
+	.addTask-btn {
+		border-top-right-radius: $border-radius;
+		border-bottom-right-radius: $border-radius;
+		padding: 0.3rem 0.5rem;
+		background: lighten($color-blue, 4%);
+		color: $color-white;
+		box-shadow: 0 3px 15px lighten($color-blue, 20%);
+		font-size: 0.9rem;
+		text-transform: uppercase;
+		display: flex;
+		align-items: center;
+	}
+}

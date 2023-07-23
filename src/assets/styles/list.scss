@@ -1,0 +1,42 @@
+.tasks-list {
+	.tasks-list-item {
+		display: flex;
+		justify-content: space-between;
+		color: inherit;
+		background: lighten($color-blue, 1%);
+		padding: 0.3rem 0.8rem;
+		border-radius: $border-radius;
+
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.action-btns {
+		.done-btn {
+			background: $color-green;
+			margin-right: 0.8rem;
+
+			&:hover {
+				background: darken($color-green, 7%);
+			}
+		}
+
+		.edit-btn {
+			background: darken($color-blue, 5%);
+			margin-right: 0.8rem;
+
+			&:hover {
+				background: darken($color-blue, 12%);
+			}
+		}
+
+		.delete-btn {
+			background: $color-red;
+
+			&:hover {
+				background: darken($color-red, 7%);
+			}
+		}
+	}
+}
